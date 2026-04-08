@@ -3,129 +3,125 @@ VERSION:2.0
 PRODID:-//Gemini AI//Baden-Wuerttemberg Holidays and Bridge Days 2026//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Holidays & Bridge Days BW 2026
+X-WR-CALNAME:Feiertage BW 2026
 X-WR-TIMEZONE:Europe/Berlin
 COMMENT:PROMPT USED: Create an iCalendar (.ics) file for all public holidays in 
  the German state of Baden-Wuerttemberg for the year 2026. For each event\, fo
- llow these strict formatting rules: 1. Summary: Include the English name\, th
- en a forward slash\, then the German name\, followed by the URL to the German
-  Wikipedia page for that holiday in parentheses. 2. Description: Use the for
- mat 'Feiertag [German Holiday Name]'. 3. Bridge Days: Identify and add 'Brued
- kentage' (Bridge Days) for any Monday or Friday that sits between a weekend a
- nd a public holiday. Use 'Brueckentag' as the Summary and 'Brueckentag ([Desc
- ription of the day])' as the Description. 4. Technical: Ensure all events are
-  'All Day' events (DTSTART;VALUE=DATE) and use the Europe/Berlin timezone.
+ llow these strict formatting rules: 1. Summary: German Holiday Name. 2. Descr
+ iption: German Name\, English Name\, and a clickable Wikipedia link on a sepa
+ rate line. 3. Bridge Days: Identify and add 'Brueckentage' for any Monday or F
+ riday between a weekend and a holiday. 4. Technical: All-Day events.
 
 BEGIN:VEVENT
-SUMMARY:New Year's Day / Neujahrstag (https://de.wikipedia.org/wiki/Neujahrstag)
+SUMMARY:Neujahrstag
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
-DESCRIPTION:Feiertag Neujahrstag
+DESCRIPTION:Neujahrstag\nNew Year's Day\nhttps://de.wikipedia.org/wiki/Neujahrstag
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Brückentag
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
-DESCRIPTION:Brückentag (Friday after New Year)
+DESCRIPTION:Brückentag\nBridge Day (Friday after New Year)
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Brückentag
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
-DESCRIPTION:Brückentag (Monday before Epiphany)
+DESCRIPTION:Brückentag\nBridge Day (Monday before Epiphany)
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Epiphany / Heilige Drei Könige (https://de.wikipedia.org/wiki/Heilige_Drei_Könige)
+SUMMARY:Heilige Drei Könige
 DTSTART;VALUE=DATE:20260106
 DTEND;VALUE=DATE:20260107
-DESCRIPTION:Feiertag Heilige Drei Könige
+DESCRIPTION:Heilige Drei Könige\nEpiphany\nhttps://de.wikipedia.org/wiki/Heilige_Drei_Könige
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Good Friday / Karfreitag (https://de.wikipedia.org/wiki/Karfreitag)
+SUMMARY:Karfreitag
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
-DESCRIPTION:Feiertag Karfreitag
+DESCRIPTION:Karfreitag\nGood Friday\nhttps://de.wikipedia.org/wiki/Karfreitag
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Easter Monday / Ostermontag (https://de.wikipedia.org/wiki/Ostermontag)
+SUMMARY:Ostermontag
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
-DESCRIPTION:Feiertag Ostermontag
+DESCRIPTION:Ostermontag\nEaster Monday\nhttps://de.wikipedia.org/wiki/Ostermontag
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Labour Day / Tag der Arbeit (https://de.wikipedia.org/wiki/Tag_der_Arbeit)
+SUMMARY:Tag der Arbeit
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
-DESCRIPTION:Feiertag Tag der Arbeit
+DESCRIPTION:Tag der Arbeit\nLabour Day\nhttps://de.wikipedia.org/wiki/Tag_der_Arbeit
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Ascension Day / Christi Himmelfahrt (https://de.wikipedia.org/wiki/Christi_Himmelfahrt)
+SUMMARY:Christi Himmelfahrt
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
-DESCRIPTION:Feiertag Christi Himmelfahrt
+DESCRIPTION:Christi Himmelfahrt\nAscension Day\nhttps://de.wikipedia.org/wiki/Christi_Himmelfahrt
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Brückentag
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DESCRIPTION:Brückentag (Friday after Ascension Day)
+DESCRIPTION:Brückentag\nBridge Day (Friday after Ascension)
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Whit Monday / Pfingstmontag (https://de.wikipedia.org/wiki/Pfingstmontag)
+SUMMARY:Pfingstmontag
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
-DESCRIPTION:Feiertag Pfingstmontag
+DESCRIPTION:Pfingstmontag\nWhit Monday\nhttps://de.wikipedia.org/wiki/Pfingstmontag
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Corpus Christi / Fronleichnam (https://de.wikipedia.org/wiki/Fronleichnam)
+SUMMARY:Fronleichnam
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
-DESCRIPTION:Feiertag Fronleichnam
+DESCRIPTION:Fronleichnam\nCorpus Christi\nhttps://de.wikipedia.org/wiki/Fronleichnam
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Brückentag
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
-DESCRIPTION:Brückentag (Friday after Corpus Christi)
+DESCRIPTION:Brückentag\nBridge Day (Friday after Corpus Christi)
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:German Unity Day / Tag der Deutschen Einheit (https://de.wikipedia.org/wiki/Tag_der_Deutschen_Einheit)
+SUMMARY:Tag der Deutschen Einheit
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-DESCRIPTION:Feiertag Tag der Deutschen Einheit
+DESCRIPTION:Tag der Deutschen Einheit\nGerman Unity Day\nhttps://de.wikipedia.org/wiki/Tag_der_Deutschen_Einheit
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:All Saints' Day / Allerheiligen (https://de.wikipedia.org/wiki/Allerheiligen)
+SUMMARY:Allerheiligen
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-DESCRIPTION:Feiertag Allerheiligen
+DESCRIPTION:Allerheiligen\nAll Saints' Day\nhttps://de.wikipedia.org/wiki/Allerheiligen
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Christmas Day / Erster Weihnachtsfeiertag (https://de.wikipedia.org/wiki/Erster_Weihnachtsfeiertag)
+SUMMARY:Erster Weihnachtsfeiertag
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-DESCRIPTION:Feiertag Erster Weihnachtsfeiertag
+DESCRIPTION:Erster Weihnachtsfeiertag\nChristmas Day\nhttps://de.wikipedia.org/wiki/Erster_Weihnachtsfeiertag
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Boxing Day / Zweiter Weihnachtsfeiertag (https://de.wikipedia.org/wiki/Zweiter_Weihnachtsfeiertag)
+SUMMARY:Zweiter Weihnachtsfeiertag
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-DESCRIPTION:Feiertag Zweiter Weihnachtsfeiertag
+DESCRIPTION:Zweiter Weihnachtsfeiertag\nBoxing Day\nhttps://de.wikipedia.org/wiki/Zweiter_Weihnachtsfeiertag
 END:VEVENT
 
 END:VCALENDAR
