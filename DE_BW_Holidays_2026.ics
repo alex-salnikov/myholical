@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gemini AI//Baden-Wuerttemberg Holidays and Bridge Days 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Holidays & Bridge Days BW 2026
+X-WR-TIMEZONE:Europe/Berlin
+COMMENT:PROMPT USED: Create an iCalendar (.ics) file for all public holidays in 
+ the German state of Baden-Wuerttemberg for the year 2026. For each event\, fo
+ llow these strict formatting rules: 1. Summary: Include the English name\, th
+ en a forward slash\, then the German name\, followed by the URL to the German
+  Wikipedia page for that holiday in parentheses. 2. Description: Use the for
+ mat 'Feiertag [German Holiday Name]'. 3. Bridge Days: Identify and add 'Brued
+ kentage' (Bridge Days) for any Monday or Friday that sits between a weekend a
+ nd a public holiday. Use 'Brueckentag' as the Summary and 'Brueckentag ([Desc
+ ription of the day])' as the Description. 4. Technical: Ensure all events are
+  'All Day' events (DTSTART;VALUE=DATE) and use the Europe/Berlin timezone.
+
+BEGIN:VEVENT
+SUMMARY:New Year's Day / Neujahrstag (https://de.wikipedia.org/wiki/Neujahrstag)
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+DESCRIPTION:Feiertag Neujahrstag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Brückentag
+DTSTART;VALUE=DATE:20260102
+DTEND;VALUE=DATE:20260103
+DESCRIPTION:Brückentag (Friday after New Year)
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Brückentag
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+DESCRIPTION:Brückentag (Monday before Epiphany)
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Epiphany / Heilige Drei Könige (https://de.wikipedia.org/wiki/Heilige_Drei_Könige)
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+DESCRIPTION:Feiertag Heilige Drei Könige
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Good Friday / Karfreitag (https://de.wikipedia.org/wiki/Karfreitag)
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+DESCRIPTION:Feiertag Karfreitag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Easter Monday / Ostermontag (https://de.wikipedia.org/wiki/Ostermontag)
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+DESCRIPTION:Feiertag Ostermontag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Labour Day / Tag der Arbeit (https://de.wikipedia.org/wiki/Tag_der_Arbeit)
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DESCRIPTION:Feiertag Tag der Arbeit
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Ascension Day / Christi Himmelfahrt (https://de.wikipedia.org/wiki/Christi_Himmelfahrt)
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+DESCRIPTION:Feiertag Christi Himmelfahrt
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Brückentag
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+DESCRIPTION:Brückentag (Friday after Ascension Day)
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Whit Monday / Pfingstmontag (https://de.wikipedia.org/wiki/Pfingstmontag)
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+DESCRIPTION:Feiertag Pfingstmontag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Corpus Christi / Fronleichnam (https://de.wikipedia.org/wiki/Fronleichnam)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+DESCRIPTION:Feiertag Fronleichnam
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Brückentag
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+DESCRIPTION:Brückentag (Friday after Corpus Christi)
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:German Unity Day / Tag der Deutschen Einheit (https://de.wikipedia.org/wiki/Tag_der_Deutschen_Einheit)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+DESCRIPTION:Feiertag Tag der Deutschen Einheit
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:All Saints' Day / Allerheiligen (https://de.wikipedia.org/wiki/Allerheiligen)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:Feiertag Allerheiligen
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Christmas Day / Erster Weihnachtsfeiertag (https://de.wikipedia.org/wiki/Erster_Weihnachtsfeiertag)
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+DESCRIPTION:Feiertag Erster Weihnachtsfeiertag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Boxing Day / Zweiter Weihnachtsfeiertag (https://de.wikipedia.org/wiki/Zweiter_Weihnachtsfeiertag)
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+DESCRIPTION:Feiertag Zweiter Weihnachtsfeiertag
+END:VEVENT
+
+END:VCALENDAR
